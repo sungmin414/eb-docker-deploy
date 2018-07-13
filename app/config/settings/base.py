@@ -27,6 +27,9 @@ SECRET_KEY = secrets['SECRET_KEY']
 # Application definition
 
 INSTALLED_APPS = [
+    'members',
+
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
